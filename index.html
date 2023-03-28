@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Border Radius Generator</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.3/css/bulma.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Orbitron">
+    <link rel="stylesheet" href="assets/styles/index.css">
+    
+  </head>
+  <body>
+    <section class="section">
+      <div class="container">
+        <h1 class="title">Border Radius Generator</h1>
+        <div class="box" id="box"></div>
+        <div class="field is-grouped">
+          <div class="control">
+            <input class="input" type="text" id="top-left-input" placeholder="Top Left">
+          </div>
+          <div class="control">
+            <input class="input" type="text" id="top-right-input" placeholder="Top Right">
+          </div>
+          <div class="control">
+            <input class="input" type="text" id="bottom-left-input" placeholder="Bottom Left">
+          </div>
+          <div class="control">
+            <input class="input" type="text" id="bottom-right-input" placeholder="Bottom Right">
+          </div>
+        </div>
+        <button class="button is-primary" id="generate-btn">Generate</button>
+        <button class="button is-info" id="copy-btn">Copy CSS</button>
+        <div class="notification is-hidden" id="copy-success">CSS Copied!</div>
+      </div>
+    </section>
+    <script src="assets/scripts/index.js"></script>
+  </body>
+</html>

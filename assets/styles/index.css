@@ -1,0 +1,112 @@
+/* Fonte personalizada */
+@import url('https://fonts.googleapis.com/css?family=Orbitron');
+
+/* Estilo global */
+html, body {
+  height: 100%;
+  background: #1f1f1f;
+  font-family: 'Orbitron', sans-serif;
+  color: #fff;
+}
+
+/* Container principal */
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  padding: 2rem;
+}
+
+/* Título */
+.title {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+  text-align: center;
+  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #0ff, 0 0 70px #0ff, 0 0 80px #0ff, 0 0 100px #0ff, 0 0 150px #0ff;
+}
+
+/* Caixa de exibição */
+.box {
+  width: 200px;
+  height: 200px;
+  margin: 2rem auto;
+  background: #0ff;
+  border-radius: 50px 0 50px 0;
+  transition: all 0.5s ease-in-out;
+}
+
+/* Animação ao gerar */
+.box.generate {
+  transform: rotate(360deg);
+}
+
+/* Campos de entrada */
+.input {
+  background: transparent;
+  color: #fff;
+  border: 2px solid #0ff;
+  border-radius: 20px;
+  text-align: center;
+  margin-right: 0.5rem;
+  padding: 0.5rem 1rem;
+  transition: all 0.3s ease-in-out;
+}
+
+.input:focus {
+  outline: none;
+  border-color: #00e6b8;
+}
+
+/* Botão de gerar */
+#generate-btn {
+  margin-top: 1rem;
+  background: #0ff;
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  padding: 0.5rem 2rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+#generate-btn:hover {
+  background: #00e6b8;
+}
+
+/* Botão de copiar */
+#copy-btn {
+  margin-top: 1rem;
+  background: transparent;
+  color: #0ff;
+  border: 2px solid #0ff;
+  border-radius: 20px;
+  padding: 0.5rem 2rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+#copy-btn:hover {
+  background: #0ff;
+  color: #fff;
+}
+
+/* Notificação de sucesso de cópia */
+.notification {
+  margin-top: 1rem;
+  background: #00e6b8;
+  color: #fff;
+  border-radius: 20px;
+  padding: 0.5rem 2rem;
+  font-size: 1rem;
+  text-align: center;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.notification.show {
+  opacity: 1;
+}
