@@ -4,8 +4,9 @@
 A simple tool to generate border radius values for HTML boxes.
 
 # Demonstration 
-![Alt text](vscode-local:/FireShot%20Capture%20064%20-%20Border%20Radius%20Generator_%20-%205500-bfrpaulon-borderradiusg-l692hmjubls.ws-us92.gitpod.io.png)
-## Functionalities
+![FireShot Capture 064 - Border Radius Generator_ - 5500-bfrpaulon-borderradiusg-l692hmjubls ws-us92 gitpod io](https://user-images.githubusercontent.com/122818137/228294480-4c469fbe-96cb-4dd9-b85c-134758119374.png)
+![mobile (3)](https://user-images.githubusercontent.com/122818137/228294940-b60a2e68-b8c4-40c3-a101-f7deb936f387.png)
+
 
 - User can enter border radius values for each corner of the box.
 - The box updates in real-time to show how changes affect the appearance.
